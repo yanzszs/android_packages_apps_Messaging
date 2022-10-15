@@ -33,17 +33,14 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
          <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
          <item name="colorPrimary">@color/action_bar_background_color</item>
-         <item name="colorPrimaryDark">@color/action_bar_background_color_dark</item>
          <item name="colorAccent">@color/lineage_accent</item>
-         <item name="android:textColorHighlight">@color/text_highlight_color</item>
          <item name="actionBarStyle">@style/BugleActionBar</item>
          <item name="apnPreferenceStyle">@style/ApnPreference</item>
     </style>
 
     <style name="LaunchTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
          <item name="colorPrimary">@color/action_bar_background_color</item>
-         <item name="colorPrimaryDark">@color/action_bar_background_color_dark</item>
-    </style>
+     </style>
 
     <style name="BugleTheme.ConversationActivity"
         parent="@style/BugleTheme.ConversationActivityBase">
@@ -102,7 +99,7 @@
       <item name="android:textColor">@color/action_bar_title_text_color</item>
       <item name="android:textSize">@dimen/action_bar_text_size</item>
       <item name="android:lines">1</item>
-    </style>
+     </style>
 
     <style name="ConversationActionBarTitleTextStyle" parent="BugleActionBarTitleTextStyle">
       <item name="android:background">?android:attr/selectableItemBackground</item>
@@ -206,12 +203,10 @@
 
     <style name="AudioPickerHintText">
         <item name="android:textSize">@dimen/audio_picker_text_size</item>
-        <item name="android:textColor">@color/audio_picker_hint_text_color</item>
     </style>
 
     <style name="AudioPickerTimerText">
         <item name="android:textSize">@dimen/audio_picker_text_size</item>
-        <item name="android:textColor">@color/audio_picker_timer_text_color</item>
     </style>
 
     <style name="AudioAttachmentTimerText">
@@ -221,7 +216,6 @@
     </style>
 
     <style name="AudioAttachmentViewStyle">
-        <item name="android:paddingRight">16dp</item>
         <item name="android:paddingLeft">16dp</item>
     </style>
 
@@ -507,7 +501,6 @@
     </style>
 
     <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/action_bar_title_text_color</item>
         <item name="android:singleLine">true</item>
         <item name="android:layout_marginEnd">8dp</item>
     </style>
